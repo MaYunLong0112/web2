@@ -1,0 +1,563 @@
+	.big{
+		width: 1180px;
+		margin: 0 auto;
+	}
+	.tu1{
+    height: 105px;
+    width: 43px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    right:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.df{
+  
+height: 45px;
+}
+.ef{
+   height: 60px;
+}
+.tu2{
+    height: 140px;
+    width: 123px;
+    position: fixed;
+    z-index: 1;
+    top: 160px;
+    right:-80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.tua{
+  height: 140px;
+  width: 60px;
+  float: left;
+  background: red;
+}
+.tub{
+  height: 140px;
+  width: 63px;
+  float: left;
+  text-align: center;
+  background: #fd9a6e;
+  padding-top: 30px;
+}
+.dl{
+  color: white;
+  width: 40px;
+  font-size: 5px;
+  border: 1px white solid;
+  text-align: center;
+  margin-top: 15px;
+  background: #fd9a6e;
+  outline: none;
+}
+.wdl{
+  font-size: 3px;
+  margin-top: 30px;
+}
+.tu3{
+    height: 150px;
+    width: 43px;
+    position: fixed;
+    z-index: 1;
+    top: 305px;
+    right:0 ;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.tu4{
+    height: 140px;
+    width: 43px;
+    position: fixed;
+    z-index: 1;
+    top: 460px;
+    right:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.app{
+  width: 123px;
+  height:50px;
+}
+#ewm{
+  background:#fd9a6e;
+  width: 123px;
+  height: 100px;
+  position: absolute;
+  
+}
+#ewm1{
+   display: block; 
+   width: 24px;
+   height: 24px;
+   margin-left: 11px;
+   margin-top: 50px; 
+}
+#ewm2{
+  margin-left: 15px;
+  margin-top: 5px;
+  display: none;
+}
+	.right{
+		width: 45px;
+		height: 510px;
+		position: fixed;
+		right: 0;
+		top: 100px;
+	}
+	.v1{
+		float: right;
+		width: 45px;
+		height: 70px;
+		background: #ff9260;
+	}
+	.v2{
+		float: right;
+		margin-top: 5px;
+		width: 45px;
+		height: 140px;
+		background: #ff9260;
+	}
+	.v3{
+		float: right;
+		margin-top: 5px;
+		width: 45px;
+		height: 140px;
+		background: #ff4d04;
+	}
+	.top1{
+		float: left;
+		padding-top: 10px;
+		width: 1180px;
+		margin: 0 auto;
+		background: white;
+	}
+	.top{
+		margin: 0 auto;
+		width: 1180px;
+		height: 30px;
+		background: white;
+		top: 0;
+		z-index:9999;
+	}
+	.qq{
+		float: left;
+		margin-left: 460px;
+	}
+	.a{
+		font-size: 10px;
+		color: #9a9791;
+		float: left;
+	}
+	.b{
+		font-size: 10px;
+		color: orange;
+		float: left;
+	}
+	img{
+		float: left;
+	}
+	.top1 input{
+		margin-top: 15px;
+		margin-left: 120px;
+		float: left;
+		width: 500px;
+		height: 35px;
+		border-color: #fe6c00;
+		border-width: 3px;
+		border-style: solid;
+	}
+	.so{
+		margin-top: 15px;
+		color: white;
+		background: #fe6c00;
+		width: 80px;
+		height: 43px;
+		float: left;
+		border-color: #fe6c00;
+		border-width: 3px;
+		border-style: solid;
+		font-size: 18px;
+	}
+	.cjwt{
+		margin-top: 15px;
+		float: left;
+		height: 40px;
+		width: 85px;
+		background: #fe6c00;
+		color: white;
+		border-color: gray;
+		border-width: 1px;
+		font-size: 14px;
+	}
+	.dike{
+		padding-top: 15px;
+		padding-left: 75px;
+	}
+	.resou{
+		float: left;
+		padding-left: 120px;
+		font-size: 14px;
+	}
+	.red{
+		color: red;
+	}
+	.gray{
+		color: gray;
+	}
+	.nav1{
+		width: 100%;
+		border-bottom: 1px solid #fe6c00;
+		float: left;
+		background: white;
+	}
+	.btn{
+		width: 170px;
+		height: 40px;
+		float: left;
+		background: #fe6c00;
+		border-color: #fe6c00;
+		border-style: solid;
+		font-size: 16px;
+		color: white;
+	}
+	.btn1{
+		width: 120px;
+		height: 40px;
+		float: left;
+		background: white;
+		border-color: white;
+		border-style: solid;
+		font-size: 16px;
+	}
+	.hot{
+		float: right;
+	}
+	.main{
+		margin: 0 auto;
+		float: left;
+		width: 100%;
+	}
+	.kind{
+		width: 170px;
+		height: 550px;
+		float: left;
+	}
+	.box{
+		width: 800px;
+		height: 365px;
+		float: left;
+		position: relative;
+		overflow: hidden;
+	}
+	.slider{
+		width: 6400px;
+		position: absolute;
+		left: -800px;
+	}
+	.slide{
+		width: 800px;
+		overflow: hidden;
+		float: left;
+	}
+	.box>span{
+		display: block;
+		width: 30px;
+		height: 50px;
+		text-align: center;
+		cursor: pointer;
+		color: #fff;
+		top: 175px;
+		line-height: 50px;
+		background: rgb(255,0,0);
+		font-size: 30px;
+		position: absolute;
+		opacity: 0;
+	}
+	#left{
+		left: 30px;
+	}
+	#right{
+		right: 30px;
+	}
+	.nav{
+		position: absolute;
+		left: 260px;
+		bottom: 10px;
+	}
+	.nav>li{
+		color: black;
+		float: left;
+		width: 15px;
+		height: 18px;
+		background: white;
+		cursor: pointer;
+		margin: 0 10px;
+		border-radius: 80%;
+	}
+	.nav .active{
+		background: #fe6c00;
+	}
+	.news{
+		float: left;
+		width: 209px;
+		height: 365px;
+		border-left:1px solid #fe6c00;
+	}
+	.good{
+		float: left;
+		width: 800px;
+		height: 185px;
+		border-top: 2px solid #fe6c00;
+		border-right: 1px solid #fe6c00;
+	}
+	.show1{
+		float: left;
+		width: 200px;
+		height: 185px;
+		background: #ffaa11;
+	}
+	.show2{
+		float: left;
+		width: 200px;
+		height: 185px;
+		background: #41cb34;
+	}
+	.show3{
+		float: left;
+		width: 200px;
+		height: 185px;
+		background: #01b0ed;
+	}
+	.show4{
+		float: left;
+		width: 200px;
+		height: 185px;
+		background: white;
+	}
+	.pay{
+		float: left;
+		width: 208px;
+		height: 185px;
+		border-top: 1px solid #DCDCDC;
+	}
+	.pay input{
+		width: 125px;
+		height: 25px;
+	}
+	.left{
+		float: left;
+		width: 25px;
+		height: 425px;
+		background: #4c4c4a;
+	}
+	.up1{
+		margin-top: 20px;
+		font-size: 18px;
+		color: #ff4d4b;
+		float: left;
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	.up2{
+		width: 100%;
+		float: left;
+		font-size: 18px;
+		margin-top: 45px;
+		color: #ff4d4b;
+		text-align: center;
+		display: block;
+	}
+	.kinds{
+		float: left;
+		width: 145px;
+		height: 425px;
+		font-size: 13px;
+	}
+	.que{
+		border-top: 1px solid #fe6c00;
+		float: left;
+		width: 170px;
+		height: 125px;
+	}
+	.ques{
+		padding-top: 20px;
+		padding-left: 5px;
+		float: left;
+		width: 170px;
+		font-size: 15px;
+	}
+	.dianshang{
+		font-size: 18px;
+		color: #ff4d4b;
+	}
+	.h1{
+		width: 100%;
+		float: left;
+		margin-top: 8px;
+	}
+	.h2{
+		width: 100%;
+		float: left;
+		margin-top: 8px;
+	}
+	.h2 input{
+		margin-left: 10px;
+	}
+	.h3{
+		width: 100%;
+		float: left;
+		margin-top: 8px;
+	}
+	.h3 select{
+		margin-left: 10px;
+	}
+	.h4{
+		width: 100%;
+		float: left;
+		margin-top: 8px;
+	}
+	.h4 button{
+		width: 180px;
+		height: 25px;
+		background: #fe6c00;
+		color: white;
+		margin-left: 10px;
+	}
+	.h1 img{
+		padding-left: 10px;
+		float: left;
+	}
+	.w1{
+		float: left;
+		padding-left: 15px;
+		font-size: 14px;
+	}
+	.w2{
+		float: left;
+		font-size: 14px;
+		color: #fe6c00;
+	}
+	.w3{
+		font-size: 14px;
+		color:#fe6c00;
+	}
+	.di{
+		margin-top: 30px;
+		float: left;
+		width: 100%;
+		height: 185px;
+		background: #f8f7f6;
+		border-bottom: 1px solid gray;
+	}
+	.l1{
+		float: left;
+	}
+	.l2{
+		margin-left: 25px;
+		float: left;
+		height: 100%;
+		width: 120px;
+	}
+	.l2 p{
+		font-size: 14px;
+	}
+	.l3{
+		float: left;
+	}
+	.l3 img{
+		padding-top: 15px;
+	}
+	h1{
+		font-size: 16px;
+	}
+	.di1{
+		float: left;
+		width: 100%;
+		height: 20px;
+		background: #f8f7f6;
+		margin-top: 10px;
+	}
+	.dia{
+		float: left;
+		width: 100%;
+		height: 30px;
+		background: #f8f7f6;
+	}
+	.di2{
+		float: left;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.words{
+		font-size: 15px;
+		text-align: center;
+		display: block;
+		color: #666560;
+	}
+	.words1{
+		font-size: 14px;
+		text-align: center;
+		display: block;
+		color: #a8a3bb;
+	}
+	.tu1a{
+		padding-left: 200px;
+	}
+	ul,li{
+		list-style:none;
+		display:block;
+		font-size: 13px;
+		font-weight: bold;
+		color: #fe6c00;
+		padding: 0;
+		padding-left: 8px;
+	}
+	.kuaixun{
+		margin-top: 10px;
+		float: left;
+		height: 20px;
+		width: 100%;
+		border-bottom: 1px solid #ebeae7;
+		padding-bottom: 5px;
+	}
+	.lb{
+		float: left;
+		padding-left: 15px;
+	}
+	.jt{
+		float: right;
+		padding-left: 25px;
+		padding-top: 5px;
+	}
+	.bb{
+		float: left;
+		padding-left: 15px;
+		font-size: 15px;
+		color: #fe6c00;
+	}
+    #scrollBox{
+    	width: 100%;
+    	height: 325px;
+		float: left;
+    	overflow:hidden;
+    }
+    #scrollBox #con1,#con2{
+    	height: 365px;
+    	width:100%;
+    	float:left;
+    }
+    #scrollBox li{
+    	height:15px;
+    	line-height:15px;
+    }
+    body{
+    	background: #f8f7f6;
+    }

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>商品详情页</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./goods.css">
+</head>
+<body>
+	<div class="big">
+		<div class="top" id="top">
+			<span class="a">帮5买，享帮帮</span>
+			<img src="img/qq.jpg" class="qq">
+			<span class="a">&nbsp;&nbsp;&nbsp;登录&nbsp;&nbsp;&nbsp;注册&nbsp;&nbsp;&nbsp;</span>
+			<img src="img/xiaoxi.jpg">
+			<span class="a">消息&nbsp;&nbsp;&nbsp;我的订单&nbsp;&nbsp;&nbsp;</span>
+			<img src="img/dingdan.jpg">
+			<span class="a">我的收藏&nbsp;&nbsp;&nbsp;帮钻兑换&nbsp;&nbsp;&nbsp;</span>
+			<img src="img/phone.png">
+			<span class="a">手机版&nbsp;&nbsp;&nbsp;帮5淘&nbsp;&nbsp;&nbsp;客户服务&nbsp;&nbsp;&nbsp;</span>
+			<img src="img/gouwuche.jpg">
+			<span class="a">购物车&nbsp;&nbsp;</span>
+			<span class="b">0</span>
+			<div class="top1">
+				<img src="img/logo_03.jpg">
+				<input type="text" placeholder="输入商品网址或关键词，直通全网，快速帮5购！">
+				<button class="so">搜全网</button>
+				<img src="img/dike.jpg" class="dike">
+				<button class="cjwt"><img src="img/wenhao.jpg">常见问题</button>
+				<p class="resou"><span class="red">洗发护发 </span>|<span class="red"> 日本纸尿裤 </span>| 身体乳 | 内衣文胸 |<span class="gray"> iPhone 6s </span>|<span class="gray"> iPad Air2 </span>| 牛仔裤 | 奶粉 | 防晒霜 | 伞</p>
+			</div>
+		</div>
+		<div class="nav">
+			<button class="btn">首页</button>
+			<button class="btn1">热门品牌</button>
+			<button class="btn1">美妆个护</button>
+			<button class="btn1">服饰鞋包</button>
+			<button class="btn1">母婴生活</button>
+			<button class="btn1">食品保健</button>
+			<button class="btn1">韩国直邮</button>
+			<button class="btn1">跨境购</button>
+			<img src="img/ff_03.jpg">
+		</div>
+		<div class="srcc">首页>美容护肤/美体/精油>防晒>韩国 RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶
+		</div>
+		<div class="main">
+			<div class="tu" onmouseover="bigger()">
+				<div id="smallImg">
+        			<img src="img/pp0.jpeg">
+        			<div id="lay"></div>
+    			</div>
+    			<div id="bigImg">
+        			<img src="img/pp0.jpeg">
+    			</div>
+			</div>
+			<div class="zi">
+				<h1>韩国 RE:CIPE 水晶清爽防水防晒喷雾SPF50 150ml/瓶</h1>
+				<span class="js">【限购3件】超透明无痕防晒，防水防汗顶撞，保湿降温不黏腻。水晶防晒喷雾，喷后皮<br>肤水润，不油，不留白，更不会像防晒霜那样抹不开，非常实用，开始存货吧。</span>
+				<p>价格<span class="qiyi">￥71</span> <span class="yj">￥150</span></p>
+				<img src="img/ss_09.jpg">
+				<div class="ml">
+					<span class="hl">化妆品净含量</span>
+					<button value="150" id="ywl" onclick="showa()">150ml</button>
+					<button value="200" id="eb" onclick="showb()">200ml</button>
+				</div>
+				<div class="num">
+					<span class="hl">数量</span>
+					<button class="min" id="subtract">-</button>
+					<input type="text" value="1" id="text"">
+					<button class="add" id="plus">+</button>
+					<span class="kc">件(库存5件)</span>
+				</div>
+				<div class="xl">
+					<img src="img/oo_03.jpg">
+				</div>
+				<p class="nin">您已选择<span class="cho" id="cho"></span></p>
+				<button class="buy">立即购买</button>
+				<button class="car" onclick="showPop('tcc')">加入购物车</button>
+			</div>		
+			<div class="small">
+				<img src="img/spanl.jpg" class="l">
+				<div id="tu1"><img src="img/sp0.jpeg" onmouseover="add()"></div>
+				<div id="tu2"><img src="img/sp1.jpeg" onmouseover="add1()"></div>
+				<img src="img/spanr.jpg" class="r">
+			</div>
+		</div>
+		<div class="see">
+			<img src="img/ww_07.jpg">
+		</div>
+		<div class="ban">
+			<img src="img/a_07.jpg">
+		</div>
+		<div class="di">
+			<div class="l1">
+				<img src="img/loginB.jpg">
+			</div>
+			<div class="l2">
+				<h1>购物指南</h1>
+				<p>如何下单</p>
+				<p>帮5购流程</p>
+				<p>订单查询</p>
+				<p>物流配送</p>
+			</div>
+			<div class="l2">
+				<h1>支付相关</h1>
+				<p>支付方式</p>
+				<p>安全设置</p>
+				<p>账户信息</p>
+			</div>
+			<div class="l2">
+				<h1>售后服务</h1>
+				<p>取消订单</p>
+				<p>申请售后</p>
+				<p>退货流程</p>
+				<p>退款相关</p>
+			</div>
+			<div class="l2">
+				<h1>VIP服务</h1>
+				<p>VIP优惠</p>
+				<p>如何成为VIP</p>
+				<p>超级帮钻</p>
+			</div>
+			<div class="l2">
+				<h1>帮韩品</h1>
+				<p>韩国正品</p>
+				<p>闪电发货</p>
+				<p>帮韩品售后</p>
+			</div>
+			<div class="l2">
+				<h1>更多</h1>
+				<p>手机APP</p>
+				<p>帮5采APP</p>
+				<p>帮5淘插件</p>
+				<p>其他</p>
+			</div>
+			<div class="l3">
+				<img src="img/erweima.jpg">
+			</div>
+		</div>
+		<div class="di1">
+			<span class="words">关于帮5买&nbsp;|&nbsp;联系我们&nbsp;|&nbsp;合作商家&nbsp;|&nbsp;友情链接&nbsp;|&nbsp;加入我们&nbsp;|&nbsp;移动应用&nbsp;|热门&nbsp;|&nbsp;广告联盟&nbsp;|&nbsp;使用条款</span>
+		</div>
+		<div class="di1">
+			<span class="words1">Copyright&nbsp;©2011-2015&nbsp;B5M.COM.All&nbsp;rights&nbsp;resrved.Powered&nbsp;by&nbsp;B5Msoft&nbsp;Co.,Ltd</span>
+		</div>
+		<div class="dia">
+			<span class="words1">增值电信业务经营许可证:沪B2-20130065号|中华人民共和国互联网药品信息服务资格证书(沪) -非经营性2013-0034沪卫(中医)网审[2015] 10032号 沪ICP备11034776号-3 I食品流通许可证:<br>SP3101151410301755</span>
+		</div>
+		<div class="di2">
+			<img src="img/bo1.gif" class="tu1">
+      		<img src="img/bo2.png">
+      		<img src="img/bo3.gif">
+      		<img src="img/bo4.png">
+      		<img src="img/bo5.png">
+      		<img src="img/bo6.png">
+      		<img src="img/bo7.png">
+		</div>
+		<div id="mask"  style="filter: Alpha(opacity=30); -moz-opacity: 0.6; -khtml-opacity: 0.6;
+             opacity: 0.6;  background-color:#696969; width: 100%; height:1400px; z-index: 5px;
+             position: absolute; left: 0; top: 0; display: none; overflow: hidden;">
+         </div>
+         <div id="tcc" style="display:none;">
+         <button class="close" onclick="hidePop('tcc');">X</button>
+         <img src="img/rr11_02.jpg">
+         <button class="btn3" id="test" onclick="hidePop('tcc');">继续购物</button>
+         <button class="btn4">去购物车结算</button>
+         </div>
+	</div>
+</body>
+<script type="text/javascript">
+	var plus = document.getElementById("plus");
+	var i = document.getElementById("text").value;
+	var subtract = document.getElementById("subtract");
+	plus.onclick = function(){
+		if(i>=5){
+			alert("不可超过库存，当前库存5件");
+			return;
+		}
+		i++;
+		document.getElementById("text").value = i;
+	}
+	subtract.onclick = function(){
+		if (i>1) {
+			i--;
+			document.getElementById("text").value = i;
+		}else{
+			i=1;
+			document.getElementById("text").value = i;
+		}
+	}
+	var a=document.getElementById("ywl").value;
+	var b=document.getElementById('eb').value;
+	var c=document.getElementById("cho")
+	function showa(){
+		var ywl=document.getElementById("ywl");
+		var eb=document.getElementById("eb");
+		eb.style.backgroundImage=null;
+		eb.style.backgroundRepeat=null;
+		eb.style.backgroundPosition=null;
+		eb.style.border='1px solid gray';
+		c.innerHTML='"'+a+"ml"+'"';
+		ywl.style.backgroundImage='url(img/duigou.png)';
+		ywl.style.backgroundRepeat= 'no-repeat';
+		ywl.style.backgroundPosition= '48px 15px';
+		ywl.style.border='1px solid red';
+	}
+	function showb(){
+		var ywl=document.getElementById("ywl");
+		var eb=document.getElementById("eb");
+		ywl.style.backgroundImage=null;
+		ywl.style.backgroundRepeat=null;
+		ywl.style.backgroundPosition=null;
+		ywl.style.border='1px solid gray';
+		c.innerHTML='"'+b+"ml"+'"';
+		eb.style.backgroundImage='url(img/duigou.png)';
+		eb.style.backgroundRepeat= 'no-repeat';
+		eb.style.backgroundPosition= '48px 15px';
+		eb.style.border='1px solid red';
+	}
+	function add(){
+		var d1=document.getElementById('tu1');
+		var d2=document.getElementById('tu2');
+		d1.style.border="1px solid red";
+		d2.style.border="1px solid white";
+		var si=document.getElementById('smallImg');
+		var bi=document.getElementById('bigImg');
+		si.innerHTML='<img src="img/pp0.jpeg"><div id="lay"></div>';
+		bigger();
+		bi.innerHTML='<img src="img/pp0.jpeg">';
+	}
+	function add1(){
+		var d1=document.getElementById('tu1');
+		var d2=document.getElementById('tu2');
+		var si=document.getElementById('smallImg');
+		d1.style.border="1px solid white";
+		var bi=document.getElementById('bigImg');
+		d2.style.border="1px solid red";
+		si.innerHTML='<img src="img/pp1.jpeg"><div id="lay"></div>';
+		bigger();
+		bi.innerHTML='<img src="img/pp1.jpeg">';
+	}
+	function clear0(){
+		var d=document.getElementById('tu1');
+		d.style.border="1px solid white";
+	}
+	function clear1(){
+		var d=document.getElementById('tu2');
+		d.style.border="1px solid white";
+	}
+	//蒙版
+	 function getPosition() {
+             var top = document.documentElement.scrollTop;
+             var left = document.documentElement.scrollLeft;
+             var height = document.documentElement.clientHeight;
+             var width = document.documentElement.clientWidth;
+             //top=500;
+             left = 420;
+             //height=0;
+             width =550;
+             height=300;
+             top=200;
+             return { top: top, left: left, height: height, width: width };
+         }
+         //屏蔽输入，显示蒙板
+        function showMask(id) {
+             var obj = document.getElementById(id);
+             obj.style.width = document.body.clientWidth;
+             obj.style.height = document.body.clientHeight;
+             obj.style.display = "block";
+         }
+         //隐藏蒙板
+        function hideMask(id) {
+             document.getElementById(id).style.display = "none";
+         }
+         //显示登录
+        function showPop(id) {
+            showMask('mask');
+            var width = 400;  //弹出框的宽度
+            var height = 200;  //弹出框的高度
+            var obj = document.getElementById(id);
+             obj.style.display = "block";
+             obj.style.position = "fixed";
+             obj.style.zindex = "10";
+             obj.style.overflow = "hidden";
+             obj.style.width = width + "px";
+             obj.style.height = height + "px";
+             var Position = getPosition();
+             leftadd = (Position.width - width) / 2;
+             topadd = (Position.height - height) / 2;
+             obj.style.top = (Position.top + topadd) + "px";
+             obj.style.left = (Position.left + leftadd) + "px";
+             window.onscroll = function() {
+                 var Position = getPosition();
+                 obj.style.top = (Position.top + topadd) + "px";
+                 obj.style.left = (Position.left + leftadd) + "px";
+             };
+             
+         }
+         //隐含
+        function hidePop(id) {
+         hideMask('mask');
+             document.getElementById(id).style.display = "none";
+         } 
+    //放大
+    function bigger(){
+	var lay = getId("lay"),
+		smallImg = getId("smallImg"),
+		bigImg = getId("bigImg");
+		tu=getId('tu');
+	var imgB = bigImg.children[0]; //大图中的图片
+	var scale = 3;        //缩放倍数  可调整
+	var w = smallImg.offsetWidth; //小图的宽高
+	var h = smallImg.offsetHeight;
+	lay.style.width = 120 + "px";
+	lay.style.height = 120 + "px";
+	imgB.style.width = w * scale + "px";
+	imgB.style.height = h * scale + "px";
+	smallImg.onmouseover = function(){
+		lay.style.display = "block";
+		bigImg.style.display = "block";
+	}    
+	smallImg.onmouseout = function(){
+		lay.style.display = "none";
+		bigImg.style.display = "none";
+	}
+	smallImg.onmousemove = function(e){
+		e = e || window.event;
+		var x = e.clientX - lay.offsetWidth-45;
+		var y = e.clientY - lay.offsetHeight;
+		if(x <= 0){            //左侧边界判断
+			x = 0;
+		}
+		if(y <= 0){            //顶部边界判断
+			y = 0;
+		}
+		if(x >= smallImg.offsetWidth - lay.offsetWidth ){
+			x = smallImg.offsetWidth - lay.offsetWidth;       //右侧边界判断
+		}
+		if(y >= smallImg.offsetHeight - lay.offsetHeight ){
+			y = smallImg.offsetHeight - lay.offsetHeight;      //底部边界判断
+		}
+		lay.style.left = x + "px";
+		lay.style.top = y + "px";
+		imgB.style.left = -x*scale + "px";    //图片默认位置为0 0左上角位置 需要反向才能两者相对显示
+		imgB.style.top = -y*scale + "px";
+		}
+    }
+    window.onload = function(){
+	var lay = getId("lay"),
+		smallImg = getId("smallImg"),
+		bigImg = getId("bigImg");
+	var imgB = bigImg.children[0]; //大图中的图片
+	var scale = 3;        //缩放倍数  可调整
+	var w = smallImg.offsetWidth; //小图的宽高
+	var h = smallImg.offsetHeight;
+	lay.style.width = 120 + "px";
+	lay.style.height = 120 + "px";
+	imgB.style.width = w * scale + "px";
+	imgB.style.height = h * scale + "px";
+	smallImg.onmouseover = function(){
+		lay.style.display = "block";
+		bigImg.style.display = "block";
+	}    
+	smallImg.onmouseout = function(){
+		lay.style.display = "none";
+		bigImg.style.display = "none";
+	}
+	smallImg.onmousemove = function(e){
+		e = e || window.event;
+		var x = e.clientX - lay.offsetWidth-45;
+		var y = e.clientY - lay.offsetHeight;
+		if(x <= 0){            //左侧边界判断
+			x = 0;
+		}
+		if(y <= 0){            //顶部边界判断
+			y = 0;
+		}
+		if(x >= smallImg.offsetWidth - lay.offsetWidth ){
+			x = smallImg.offsetWidth - lay.offsetWidth;       //右侧边界判断
+		}
+		if(y >= smallImg.offsetHeight - lay.offsetHeight ){
+			y = smallImg.offsetHeight - lay.offsetHeight;      //底部边界判断
+		}
+		lay.style.left = x + "px";
+		lay.style.top = y + "px";
+		imgB.style.left = -x*scale + "px";    //图片默认位置为0 0左上角位置 需要反向才能两者相对显示
+		imgB.style.top = -y*scale + "px";
+		}
+    }
+    function getId(id){
+        return document.getElementById(id);
+    }
+</script>
+</html>
